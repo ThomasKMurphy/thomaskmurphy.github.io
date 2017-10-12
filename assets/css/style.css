@@ -192,7 +192,7 @@ h3,
 .work img {
   width: 100%;
   border: 0 none;
-  opacity: 0.8;
+  opacity: 1.0;
 }
 
 .work h3 {
