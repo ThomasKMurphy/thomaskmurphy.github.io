@@ -21,6 +21,7 @@ let x = 0;
 let intervalHandle = null;
 let showTimer = null;
 let timer = null;
+let time = 0;
 const startButton = document.getElementById('startButton');
 const stopButton = document.getElementById('stopButton');
 const headerOne = document.getElementById('headerNames');
