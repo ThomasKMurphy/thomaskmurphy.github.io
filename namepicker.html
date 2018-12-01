@@ -9,34 +9,39 @@
 	<link rel="shortcut icon" href="assets/images/trending-up.ico" type="image/x-icon" />
 	<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.0/dist/paper.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
 	<title>TM</title>
 </head>
 
 <body>
-
 	<div class="container shadow shadow-hover">
 		<div class="paper">
-			<h1>Hello, welcome.</h1>
+			<h1>And the winner is...</h1>
+
+			<h1 id="headerNames">?</h1>
+
+			<div class="paper-btn" id="startButton">start</div>
+			<div class="paper-btn" id="stopButton">stop</div>
+
+		</div>
+
+	</div>
+
+	<div class="container row">
+		<div class="progress margin-bottom">
+			<div class="bar striped secondary w-25">25%</div>
 		</div>
 	</div>
 
-	<div class="container shadow">
-		<div class="paper">
-			<a href="https://www.linkedin.com/in/tmurphy1/" target="_blank" class="paper-btn margin">LinkedIn</a>
-			<a href="namepicker.html" class="paper-btn margin">Name Picker</a>
-			<a href="" class="paper-btn margin disabled">place holder</a>
-		</div>
+	<div class="container row flex-right">
+		<h6 class="sm-2 col text-muted">Thomas Murphy 1Dec18</h6>
 	</div>
 
-		<div class="container row">
-			<div class="progress margin-bottom">
-				<div class="bar striped secondary w-15">15%</div>
-			</div>
-		</div>
-
-		<div class="container row flex-right">
-			<h6 class="sm-2 col text-muted">Thomas Murphy 1Dec18</h6>
-		</div>
+	<script src="logic.js"></script>
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
 
 </body>
 
