@@ -1,5 +1,3 @@
-// "use strict";
-
 // Add list of names here
 const nameList = [
 	'Matt',
@@ -21,6 +19,8 @@ const nameList = [
 let i = 0;
 let x = 0;
 let intervalHandle = null;
+let showTimer = null;
+let timer = null;
 const startButton = document.getElementById('startButton');
 const stopButton = document.getElementById('stopButton');
 const headerOne = document.getElementById('headerNames');
