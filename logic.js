@@ -1,7 +1,7 @@
-"use strict";
+// "use strict";
 
 // Add list of names here
-const namesList = [
+const nameList = [
 	'Matt',
 	'Brendan',
 	'Nick',
@@ -23,14 +23,14 @@ let x = 0;
 let intervalHandle = null;
 const startButton = document.getElementById('startButton');
 const stopButton = document.getElementById('stopButton');
-// const headerOne = document.getElementById('headerNames');
+const headerOne = document.getElementById('headerNames');
 
 // Start or stop the name shuffle on button click
 startButton.addEventListener('click', function() {
 	this.style.display = 'none';
 	stopButton.style.display = 'inline';
 	intervalHandle = setInterval(function() {
-		names.textContent = namesList[i++ % namesList.length];
+		names.textContent = nameList[i++ % nameList.length];
 	}, 50);
 	if (showTimer === true) {
 		timerWrapper.classList.remove('visible');
