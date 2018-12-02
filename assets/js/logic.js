@@ -33,7 +33,7 @@ startButton.addEventListener('click', function() {
 });
 
 stopButton.addEventListener('click', function() {
-	this.style.display = "none";
+	this.style.display = 'none';
 	startButton.style.display = 'inline';
 
 	clearInterval(spin);
