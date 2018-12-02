@@ -1,4 +1,4 @@
-// Add list of names
+// List of names
 const nameList = [
 	'Matt',
 	'Brendan',
@@ -15,42 +15,26 @@ const nameList = [
 	'Tom'
 ];
 
-// Default variables
+// Declare variables
 let i = 0;
-let x = 0;
-let intervalHandle = null;
-// let showTimer = null;
-// let timer = null;
-// let time = 0;
-
+let spin = null;
 const startButton = document.getElementById('startButton');
 const stopButton = document.getElementById('stopButton');
 const name = document.getElementById('names');
 
-// Start or stop the name shuffle on button click
+// Start or stop name shuffle on button click
 startButton.addEventListener('click', function() {
 	this.style.display = 'none';
 	stopButton.style.display = 'inline';
-	
-	intervalHandle = setInterval(function() {
-		names.textContent = nameList[i++ % nameList.length];
-	}, 50);
 
-	// if (showTimer === true) {
-	// 	timerWrapper.remove('visible');
-	// }
+	spin = setInterval(function() {
+		names.textContent = nameList[i++ % nameList.length];
+	}, 60);
 });
 
 stopButton.addEventListener('click', function() {
 	this.style.display = "none";
 	startButton.style.display = 'inline';
 
-	clearInterval(intervalHandle);
-	// timer.innerHTML = time;
-
-	// if (showTimer === true) {
-	// 	timerWrapper.add('visible');
-	// }
-
-	// startTimer();
+	clearInterval(spin);
 });
