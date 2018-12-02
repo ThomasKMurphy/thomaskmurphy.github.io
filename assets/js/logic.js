@@ -20,7 +20,7 @@ let i = 0;
 let spin = null;
 const startButton = document.getElementById('startButton');
 const stopButton = document.getElementById('stopButton');
-const name = document.getElementById('names');
+const name = document.getElementById('name');
 
 // Start or stop name shuffle on button click
 startButton.addEventListener('click', function() {
@@ -28,7 +28,7 @@ startButton.addEventListener('click', function() {
 	stopButton.style.display = 'inline';
 
 	spin = setInterval(function() {
-		names.textContent = nameList[i++ % nameList.length];
+		name.textContent = nameList[i++ % nameList.length];
 	}, 60);
 });
 
