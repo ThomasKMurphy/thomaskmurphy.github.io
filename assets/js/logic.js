@@ -17,7 +17,6 @@
 
 const nameList = [
 	'Adam',
-	'Ryan',
 	'JoeCat',
 	'Conor',
 ];
