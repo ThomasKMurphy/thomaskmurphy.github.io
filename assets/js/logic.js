@@ -1,5 +1,5 @@
 // List of names
-/* const nameList = [
+const nameList = [
 	'Matt',
 	'Brendan',
 	'Nick',
@@ -13,13 +13,13 @@
 	'Richie',
 	'Andrew',
 	'Tom'
-]; */
+];
 
-const nameList = [
+/* const nameList = [
 	'Adam',
 	'JoeCat',
 	'Conor',
-];
+]; */
 
 // Declare variables
 let i = 0;
