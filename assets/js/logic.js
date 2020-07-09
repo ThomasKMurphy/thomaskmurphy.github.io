@@ -1,7 +1,6 @@
 // List of names
 const nameList = [
 	'Matt',
-	'Brendan',
 	'Nick',
 	'Adam',
 	'Ryan',
