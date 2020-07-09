@@ -20,6 +20,8 @@ const nameList = [
 	'Conor',
 ]; */
 
+
+
 // Declare variables
 let i = 0;
 let spin = null;
