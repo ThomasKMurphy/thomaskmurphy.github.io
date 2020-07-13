@@ -1,5 +1,5 @@
 // List of names
-const nameList = [
+/* const nameList = [
 	'Matt',
 	'Nick',
 	'Adam',
@@ -12,13 +12,13 @@ const nameList = [
 	'Richie',
 	'Andrew',
 	'Tom'
-];
+]; */
 
-/* const nameList = [
+const nameList = [
 	'Adam',
 	'JoeCat',
 	'Conor',
-]; */
+];
 
 
 
